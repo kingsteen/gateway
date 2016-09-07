@@ -1,1 +1,1 @@
-# warehouse-gateway
+# Nginx Gateway Template
