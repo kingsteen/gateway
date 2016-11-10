@@ -1,1 +1,1 @@
-docker service create -p 80:80 --name gateway --mount type=bind,target=/www,source=/home/charles/Code/omg/asset-storage site_gateway:latest
+docker service create -p 80:80 --name gateway --network foobar --mount type=bind,target=/www,source=/home/charles/Code/omg/gateway image_gateway:latest
